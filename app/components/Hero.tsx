@@ -88,7 +88,7 @@ export function Hero() {
 
     {/* Rejoignez 42 Boost Section */}
     <section className="pb-20 px-6 bg-gray-900/30">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto pt-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="text-white">{t('hero.join').split('-')[0]}-</span>

@@ -60,14 +60,7 @@ export function Footer() {
                   {t("footer.mentions")}
                 </Link>
               </li>
-              <li>
-                <a 
-                  href="mailto:contact@42boost.fr"
-                  className="text-gray-400 hover:text-cyan-400 transition-colors text-sm"
-                >
-                  {t("footer.privacy")}
-                </a>
-              </li>
+
             </ul>
           </div>
 

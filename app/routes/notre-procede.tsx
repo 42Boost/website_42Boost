@@ -141,7 +141,7 @@ export default function NotreProcede() {
               </svg>
             </a>
             <a 
-              href="/nos-services"
+              href="/notre-structure"
               className="border-2 border-cyan-500 text-cyan-500 hover:bg-cyan-500 hover:text-black font-semibold py-4 px-8 rounded-lg transition-colors text-center"
             >
               {t('process.cta.services')}

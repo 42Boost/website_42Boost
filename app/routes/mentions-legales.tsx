@@ -31,7 +31,7 @@ export default function MentionsLegales() {
             <h2 className="text-2xl font-bold text-cyan-400 mb-4">{t('legal.editor.title')}</h2>
             <div className="bg-gray-900 rounded-lg p-6 border border-gray-700">
               <p className="text-gray-300 mb-2">
-                <strong>{t('legal.editor.company')} :</strong> 42 Boost, {t('legal.editor.association')}
+                <strong>{t('legal.editor.company')} :</strong> 42 BOOST - Paris, {t('legal.editor.association')}
               </p>
               <p className="text-gray-300 mb-2">
                 <strong>{t('legal.editor.address')} :</strong> 96 Boulevard Bessières, 75017 Paris, France
@@ -49,9 +49,15 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-2xl font-bold text-cyan-400 mb-4">{t('legal.hosting.title')}</h2>
             <div className="bg-gray-900 rounded-lg p-6 border border-gray-700">
-              <p className="text-gray-300">
-                {t('legal.hosting.description')} contact@42boost.fr
+              <p className="text-gray-300 mb-4">
+                {t('legal.hosting.description')}
               </p>
+              <div className="space-y-2 text-gray-300">
+                <p><strong>{t('legal.hosting.name')} :</strong> Vercel Inc.</p>
+                <p><strong>{t('legal.hosting.company')} :</strong> Vercel Inc.</p>
+                <p><strong>{t('legal.hosting.address')} :</strong> 340 S Lemon Ave #4133, Walnut, CA 91789, United States</p>
+                <p><strong>{t('legal.hosting.phone')} :</strong> +1 888-501-8555</p>
+              </div>
             </div>
           </section>
 

@@ -195,8 +195,19 @@ export default function JuniorEntreprises() {
                   <div className="text-gray-400">{t('je.cnje.stats.students')}</div>
                 </div>
               </div>
+              
             </div>
           </div>
+            <div className="mt-8 flex justify-center w-full">
+              <a 
+                href="https://junior-entreprises.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-3 px-6 rounded-lg transition-colors"
+              >
+                {t('je.cnje.visit_website')}
+              </a>
+            </div>
         </div>
       </section>
 
@@ -233,7 +244,7 @@ export default function JuniorEntreprises() {
 
           <div className="mt-12">
             <a 
-              href="/notre-structure"
+              href="/nos-services"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold py-3 px-8 rounded-lg hover:from-cyan-600 hover:to-blue-600 transition-all duration-300 hover:scale-105"
             >
               {t('je.cta')}
