@@ -51,7 +51,7 @@ export function Hero() {
         </div>
         <div className="text-center mt-24">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="text-white">{t('hero.tagline').split(' ').slice(0, -2).join(' ')}-</span>
+            <span className="text-white">{t('hero.tagline').split(' ').slice(0, -2).join(' ')} </span>
             <span className="text-cyan-400">{t('hero.tagline').split(' ').slice(-2).join(' ')}</span>
           </h2>
         </div>

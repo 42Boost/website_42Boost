@@ -123,24 +123,6 @@ export function ContactForm() {
 
   return (
     <section className="py-20 px-6 relative">
-      {/* Background patterns */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-48 h-48 border-2 border-cyan-400 rotate-12 rounded-lg"></div>
-        <div className="absolute bottom-20 right-20 w-32 h-32 border-2 border-cyan-400 -rotate-12"></div>
-        
-        {/* Hexagonal pattern */}
-        <div className="absolute right-0 top-0 w-1/3 h-full">
-          <svg viewBox="0 0 200 200" className="w-full h-full opacity-5">
-            <defs>
-              <pattern id="contact-form-hexagons" x="0" y="0" width="40" height="35" patternUnits="userSpaceOnUse">
-                <polygon points="20,2 6,11 6,24 20,33 34,24 34,11" stroke="#06b6d4" strokeWidth="1" fill="none"/>
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#contact-form-hexagons)"/>
-          </svg>
-        </div>
-      </div>
-
       <div className="max-w-4xl mx-auto relative z-10 ">
         {/* Header */}
 
