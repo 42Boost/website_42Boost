@@ -126,7 +126,7 @@ export default function NotreStructure() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-8">
-                <span className="text-white">{t('structure.team.title').split(' ').slice(0, -1).join(' ')}-</span>
+                <span className="text-white">{t('structure.team.title').split(' ').slice(0, -1).join(' ')} </span>
                 <span className="text-cyan-400">{t('structure.team.title').split(' ').slice(-1)[0]}</span>
               </h2>
               <p className="text-xl text-gray-400 mb-8 leading-relaxed">

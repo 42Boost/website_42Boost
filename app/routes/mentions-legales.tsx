@@ -134,13 +134,6 @@ export default function MentionsLegales() {
             </div>
           </section>
         </div>
-
-        {/* Date de mise à jour */}
-        <div className="text-center mt-16 pt-8 border-t border-gray-800">
-          <p className="text-gray-500 text-sm">
-            {t('legal.last_update')} : {new Date().toLocaleDateString('fr-FR')}
-          </p>
-        </div>
       </div>
     </div>
   );
