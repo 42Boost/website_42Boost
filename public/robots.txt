@@ -20,4 +20,4 @@ Allow: /js/
 Allow: /public
 
 # Sitemap location (update with your actual sitemap URL when available)
-# Sitemap: https://yourwebsite.com/sitemap.xml
+# Sitemap: https://42boost.fr/sitemap.xml
