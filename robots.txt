@@ -1,0 +1,23 @@
+# robots.txt for 42Boost website
+# This file tells search engine crawlers which pages they can or cannot visit
+
+# Allow all crawlers to access the entire site
+User-agent: *
+Disallow:
+
+# Common directories to potentially block (uncomment if needed)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /.env
+Disallow: /node_modules/
+Disallow: /CLAUDE.md
+# Disallow: /build/
+
+# Allow access to public assets
+Allow: /assets/*
+Allow: /css/
+Allow: /js/
+Allow: /public
+
+# Sitemap location (update with your actual sitemap URL when available)
+# Sitemap: https://yourwebsite.com/sitemap.xml
